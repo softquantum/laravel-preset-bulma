@@ -1,4 +1,4 @@
-# Laravel 5.5.x Front-end Preset For Bootstrap 4 beta
+# Laravel 5.5.x Front-end Preset For Bulma CSS
 
 Preset for Bulma CSS scaffolding on new Laravel 5.5.x project.
 Includes pagination blade files.
