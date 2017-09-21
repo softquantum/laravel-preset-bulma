@@ -1,16 +1,6 @@
 @extends('layouts.app')
 
 @section('content')
-    <section class="hero is-primary">
-        <div class="hero-body">
-            <div class="container">
-                <h1 class="title">
-                    Register
-                </h1>
-            </div>
-        </div>
-    </section>
-
     <div class="columns is-marginless is-centered">
         <div class="column is-5">
             <div class="card">

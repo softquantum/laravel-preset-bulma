@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-    <div id="app" style="padding-top: 3.5rem;">
+    <div id="app">
         @include('partials.topnav')
         @yield('content')
     </div>
