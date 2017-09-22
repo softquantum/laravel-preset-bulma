@@ -60,6 +60,22 @@ class BulmaPreset extends Preset
     }
 
     /**
+     * Update the default welcome page file with Bulma buttons.
+     *
+     * @return void
+     */
+    protected static function updateWelcomePage()
+    {
+        // remove default welcome page
+        (new Filesystem)->delete(
+            resource_path('views/welcome.blade.php')
+        );
+
+        // copy new one with Bulma buttons
+        copy(__DIR__.'/bulma-stubs/views/welcome.blade.php', resource_path('views/welcome.blade.php'));
+    }
+
+    /**
      * Copy Bulma Auth view templates.
      *
      * @return void

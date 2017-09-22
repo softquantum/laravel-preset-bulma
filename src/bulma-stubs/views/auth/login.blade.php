@@ -1,9 +1,12 @@
 @extends('layouts.app')
 
 @section('content')
-    <div class="columns is-marginless is-centered">
-        <div class="column is-5">
-            <div class="card">
+<section class="hero is-medium is-primary is-bold">
+    <div class="hero-body">
+        <div class="container">
+            <div class="columns is-marginless is-centered">
+                <div class="column is-5">
+                    <div class="card">
                 <header class="card-header">
                     <p class="card-header-title">Login</p>
                 </header>
@@ -89,6 +92,9 @@
                     </form>
                 </div>
             </div>
+                </div>
+            </div>
         </div>
     </div>
+</section>
 @endsection
