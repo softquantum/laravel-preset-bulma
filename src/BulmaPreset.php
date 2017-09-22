@@ -54,8 +54,7 @@ class BulmaPreset extends Preset
             (new Filesystem)->delete($sass_file);
         }
 
-        copy(__DIR__.'/bulma-stubs/initial-variables.sass', resource_path('assets/sass/initial-variables.sass'));
-        copy(__DIR__.'/bulma-stubs/bulma.sass', resource_path('assets/sass/bulma.sass'));
+        copy(__DIR__.'/bulma-stubs/_custom.sass', resource_path('assets/sass/_custom.sass'));
         copy(__DIR__.'/bulma-stubs/app.scss', resource_path('assets/sass/app.scss'));
     }
 
