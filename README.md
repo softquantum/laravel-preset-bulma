@@ -1,3 +1,5 @@
+:warning: THIS PACKAGE IS DEPRECATED, YOU SHOULDN'T BE USING LARAVEL 5.5 ANYMORE
+
 # Laravel 5.5.x Front-end Preset For Bulma CSS
 
 Preset for Bulma CSS scaffolding on new Laravel 5.5.x project.
